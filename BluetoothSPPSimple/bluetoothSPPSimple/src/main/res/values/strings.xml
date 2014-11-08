@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BluetoothSPPSimple</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="Val1">Set Value 1</string>
+    <string name="Val2">Set Value 2</string>
+
+</resources>

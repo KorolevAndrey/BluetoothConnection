@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="K:\Projects\Workspace\BluetoothSPPSimple\bluetoothSPPSimple\build\intermediates\pre-dexed\debug\support-v4-19.1.0-200e431f2e28c5261ff05fa2e61964edc0f2f119.jar"
+        jar="K:\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67"/>
+    <item
+        dex="K:\Projects\Workspace\BluetoothSPPSimple\bluetoothSPPSimple\build\intermediates\pre-dexed\debug\classes-778bce647ee56c9052a90ba34293e204c101d4f9.jar"
+        jar="K:\Projects\Workspace\BluetoothSPPSimple\bluetoothSPPSimple\build\intermediates\exploded-aar\BluetoothSPPSimple\bluetoothSPP\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="ac32df8632a8483c524480d2fb08eb297d8d31c6"/>
+
+</pre-dex-items>
