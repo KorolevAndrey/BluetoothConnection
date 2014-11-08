@@ -11,11 +11,7 @@ Testing Bluetooth connection between Android and Arduino. There's a Arduino Proj
 Βασικά δεν συνδέεται απο την μεριά του arduino.
 Δεν παίζει η σειριακή.
 
-Τα ανέβασα στο 
-
-https://github.com/Tsiftelis-Thanasis/BluetoothConnection/
-
-Ο κώδικας συγκεκριμένα ειναι ο παρακάτω:
+Στις φωτογραφίες έχω και το Setup που δοκίμασα και ο κώδικας συγκεκριμένα ειναι ο παρακάτω:
 
 if (Serial.available()) 
   {
@@ -44,5 +40,4 @@ if (Serial.available())
       Serial.println();
   }
 
-Στις φωτογραφίες έχω και το Setup που δοκίμασα.
 =======================================================================
