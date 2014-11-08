@@ -1,18 +1,7 @@
-struct
-{
-  uint32_t total;
-  uint32_t ok;
-  uint32_t crc_error;
-  uint32_t time_out;
-  uint32_t unknown;
-} stat = { 0,0,0,0,0 };
-
 char INBYTE;
-int  LED = 13; // LED on pin 13
 
 void setup() {
-  Serial.begin(9600); 
-  pinMode(LED, OUTPUT);
+  Serial.begin(9600);
   Serial.print("Init..");
   Serial.println();
 }
@@ -20,26 +9,23 @@ void setup() {
 void loop() {
 
   
-  delay(5000);
+  Serial.print(Serial.available());
   
-  if (Serial.available()) 
-  {
-      Serial.print("Connected..");
-      Serial.println();
+  if (Serial.available() >0) {
+        
+        Serial.print("Connected..");
+        Serial.println();
        
-      INBYTE = Serial.read();        // read next available byte
-      
-      uint32_t start = micros();
-      uint32_t stop = micros();
+        INBYTE = Serial.read();        // read next available byte
       
       if( INBYTE == '1' ){
-        Serial.print("Value is : 1");
-        Serial.println();
+          Serial.print("Value is : 1");
+          Serial.println();
       }  
        
       if( INBYTE == '2' ){
-        Serial.print("Value is : 2");
-        Serial.println();
+          Serial.print("Value is : 2");
+          Serial.println();
       }
   
      
@@ -49,8 +35,7 @@ void loop() {
       Serial.println();
   }
   
- 
- delay(1000); 
+  delay(1000); 
 }
 
 
